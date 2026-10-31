@@ -3,7 +3,7 @@ import Listbottom from '../../../components/admin/footer';
 import Blankbox from '../../../public/img/box.png';
 import { prisma } from '../../lib/prisma';
 import { revalidatePath } from "next/cache";
-import { ListViewType } from '@/app/lib/_Type';
+import { ListViewType } from '@/app/lib/_type';
 
 async function createTask(formData:FormData) {
     "use server"
